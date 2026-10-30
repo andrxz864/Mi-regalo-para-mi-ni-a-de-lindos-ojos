@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#240b2b">
+<title>Un regalito para ti 💗</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="sparkles" aria-hidden="true"></div>
+<header class="top">
+  <span>♡ PARA TI, CON AMOR ♡</span>
+  <span class="mini-heart">♥</span>
+</header>
+
+<main class="app">
+  <section class="screen active" id="home">
+    <div class="hero-heart">💗</div>
+    <p class="eyebrow">UN LUGAR HECHO SOLO PARA TI</p>
+    <!-- CAMBIA AQUÍ EL NOMBRE O APODO -->
+    <h1>Feliz cumpleaños,<br><em>[APODO DE ELLA]</em></h1>
+    <p class="intro">Preparé este pequeño rinconcito para recordarte lo muchísimo que te quiero.</p>
+    <div class="doodle">✦ · ˚　♡　˚ · ✦</div>
+    <h2 class="choose-title">¿Qué quieres descubrir?</h2>
+    <div class="menu">
+      <button class="menu-btn pink" data-open="carta"><span>💌</span><b>Una cartita</b><small>Algo que quiero decirte</small></button>
+      <button class="menu-btn lilac" data-open="recuerdos"><span>📸</span><b>Nuestros recuerdos</b><small>Momentos que guardo</small></button>
+      <button class="menu-btn rose" data-open="razones"><span>💕</span><b>Razones para amarte</b><small>Y podría escribir más</small></button>
+      <button class="menu-btn blue" data-open="cancion"><span>🎵</span><b>Nuestra canción</b><small>Escúchala conmigo</small></button>
+      <button class="menu-btn peach" data-open="regalo"><span>🎁</span><b>Un regalito</b><small>Hay algo para ti</small></button>
+      <button class="menu-btn violet" data-open="sorpresa"><span>✨</span><b>Una sorpresa</b><small>Abre si te atreves</small></button>
+    </div>
+    <p class="bottom-note">Hecho con mucho amor, solo para ti ♡</p>
+  </section>
+
+  <section class="screen" id="carta">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">UN PEDACITO DE MI CORAZÓN</p>
+    <h2>Una cartita para ti 💌</h2>
+    <article class="paper">
+      <p>Mi niña hermosa:</p>
+      <p>[ESCRIBE AQUÍ TU CARTA. DILE TODO ESO QUE A VECES NO SABES CÓMO EXPLICAR.]</p>
+      <p>[PUEDES AGREGAR TODOS LOS PÁRRAFOS QUE QUIERAS.]</p>
+      <p class="sign">Con muchísimo amor,<br>[TU NOMBRE] ♡</p>
+    </article>
+  </section>
+
+  <section class="screen" id="recuerdos">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">NUESTRA PEQUEÑA HISTORIA</p>
+    <h2>Nuestros recuerdos 📸</h2>
+    <p class="muted">Cada fotito tiene un pedacito de nosotros.</p>
+    <div class="photos">
+      <figure><img src="fotos/recuerdo1.jpg" alt="Recuerdo 1"><figcaption><b>[TÍTULO DEL RECUERDO]</b><br>[FECHA O MENSAJE]</figcaption></figure>
+      <figure><img src="fotos/recuerdo2.jpg" alt="Recuerdo 2"><figcaption><b>[TÍTULO DEL RECUERDO]</b><br>[FECHA O MENSAJE]</figcaption></figure>
+      <figure><img src="fotos/recuerdo3.jpg" alt="Recuerdo 3"><figcaption><b>[TÍTULO DEL RECUERDO]</b><br>[FECHA O MENSAJE]</figcaption></figure>
+      <figure><img src="fotos/recuerdo4.jpg" alt="Recuerdo 4"><figcaption><b>[TÍTULO DEL RECUERDO]</b><br>[FECHA O MENSAJE]</figcaption></figure>
+    </div>
+    <p class="tip">Pon tus fotografías en la carpeta <b>fotos</b> con los nombres recuerdo1.jpg, recuerdo2.jpg, etc.</p>
+  </section>
+
+  <section class="screen" id="razones">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">POR SI ALGUNA VEZ LO OLVIDAS</p>
+    <h2>Razones para amarte 💕</h2>
+    <p class="muted">Toca cada corazoncito para descubrir una razón.</p>
+    <div class="reason-list">
+      <button class="reason">♡ <span>[POR TU SONRISA]</span></button>
+      <button class="reason">♡ <span>[POR CÓMO ME HACES SENTIR]</span></button>
+      <button class="reason">♡ <span>[POR TU FORMA DE SER]</span></button>
+      <button class="reason">♡ <span>[POR CADA DETALLE TUYO]</span></button>
+      <button class="reason">♡ <span>[PORQUE ERES TÚ]</span></button>
+    </div>
+    <p class="tip">Puedes cambiar, borrar o duplicar estas razones en index.html.</p>
+  </section>
+
+  <section class="screen" id="cancion">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">ESTA ME HACE PENSAR EN TI</p>
+    <h2>Nuestra canción 🎵</h2>
+    <div class="music-card">
+      <div class="disc">♫</div>
+      <h3>[NOMBRE DE LA CANCIÓN]</h3>
+      <p>[ARTISTA]</p>
+      <audio controls>
+        <source src="musica/nuestra-cancion.mp3" type="audio/mpeg">
+        Tu navegador no puede reproducir este audio.
+      </audio>
+    </div>
+    <p class="muted">[ESCRIBE POR QUÉ ESTA CANCIÓN ES ESPECIAL PARA USTEDES.]</p>
+    <p class="tip">Pon un MP3 en la carpeta <b>musica</b> llamado nuestra-cancion.mp3.</p>
+  </section>
+
+  <section class="screen" id="regalo">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">HE GUARDADO ALGO PARA TI</p>
+    <h2>Un regalito 🎁</h2>
+    <div class="gift-wrap">
+      <div class="gift" id="giftBox" role="button" tabindex="0" aria-label="Abrir regalo"><span>🎀</span><strong>TOCA PARA ABRIR</strong></div>
+    </div>
+    <div class="gift-message" id="giftMessage" hidden>
+      <div class="big-gift">💝</div>
+      <h3>[TU REGALO O MENSAJE]</h3>
+      <p>[ESCRIBE AQUÍ QUÉ QUIERES REGALARLE O PROMETERLE.]</p>
+    </div>
+  </section>
+
+  <section class="screen" id="sorpresa">
+    <button class="back" data-home>← Volver al menú</button>
+    <p class="eyebrow">UNA ÚLTIMA COSITA...</p>
+    <h2>¿Me haces un favor? 🥺</h2>
+    <p class="question">¿Me regalas muchos cumpleaños más a tu lado?</p>
+    <div class="answer-buttons">
+      <button id="yesBtn">SÍÍÍ 💗</button>
+      <button id="ofCourseBtn">OBVIOOO 💞</button>
+    </div>
+    <p id="answer" class="answer" hidden>¡Sabía que dirías que sí! Te quiero muchísimo. 🥹❤️</p>
+    <div class="confetti" id="confetti"></div>
+  </section>
+</main>
+<script src="funciones.js"></script>
+</body>
+</html>
