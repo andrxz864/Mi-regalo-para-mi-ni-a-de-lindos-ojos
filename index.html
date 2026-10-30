@@ -260,19 +260,91 @@
 </section>
 
 
-  <section class="screen" id="regalo">
-    <button class="back" data-home>← Volver al menú</button>
-    <p class="eyebrow">HE GUARDADO ALGO PARA TI</p>
-    <h2>Un regalito 🎁</h2>
-    <div class="gift-wrap">
-      <div class="gift" id="giftBox" role="button" tabindex="0" aria-label="Abrir regalo"><span>🎀</span><strong>TOCA PARA ABRIR</strong></div>
+<section class="screen" id="regalo">
+  <button class="back" data-home>← Volver al menú</button>
+  <p class="eyebrow">HE GUARDADO ALGO PARA TI</p>
+  <h2>Un regalito 🎁</h2>
+  <p class="muted" id="giftHint">Hay una sorpresa dentro... ♡</p>
+
+  <div class="gift-wrap">
+    <div class="gift" id="giftBox" role="button" tabindex="0">
+      <span>🎀</span>
+      <strong>TOCA PARA ABRIR</strong>
+      <small id="giftCount">0 / 5</small>
     </div>
-    <div class="gift-message" id="giftMessage" hidden>
-      <div class="big-gift">💝</div>
-      <h3>[TU REGALO O MENSAJE]</h3>
-      <p>[ESCRIBE AQUÍ QUÉ QUIERES REGALARLE O PROMETERLE.]</p>
+  </div>
+
+  <div id="secondGift" class="gift-wrap" hidden>
+    <p>¡Había otra cajita dentro! 💗</p>
+    <div class="gift" id="giftBox2" role="button" tabindex="0">
+      <span>🎁</span>
+      <strong>TOCA OTRA VEZ</strong>
+      <small id="giftCount2">0 / 5</small>
     </div>
-  </section>
+  </div>
+
+  <div id="letterStage" class="letter-stage" hidden>
+    <p>Una última cosita para ti... 💌</p>
+    <div id="swipeLetter" class="swipe-letter">
+      <span>💌</span>
+      <strong>Desliza hacia la derecha para abrir</strong>
+      <div class="swipe-track">← DESLIZA →</div>
+    </div>
+  </div>
+
+  <article id="finalGift" class="final-gift" hidden>
+    <div class="gift-card">
+      <p class="eyebrow">UN DETALLITO PARA MI NIÑA</p>
+      <h3>Para ti, mi Ladybug 🐞</h3>
+
+      <img
+        src="0c33b3c2d211239c78ee3975ef059045.jpg"
+        alt="Un regalito especial para ti"
+        class="ladybug-photo"
+      >
+
+      <div class="gift-letter-text">
+        <h3>Para mi Ladybug favorita 🐞❤️</h3>
+
+        <p>
+          Mi niña, sé lo mucho que te encanta Ladybug, sus aventuras,
+          su yo-yo, su Lucky Charm y todo ese mundo de Miraculous.
+          Quizás yo no conozca cada capítulo ni sepa tantas cosas como tú,
+          pero sí sé que hay algo muy bonito en verte disfrutar de algo
+          que te hace tan feliz.
+        </p>
+
+        <p>
+          Sé que Ladybug siempre encuentra la manera de salvar París,
+          que junto a Cat Noir se enfrenta a los akumatizados y que,
+          con la ayuda de Tikki, nunca se rinde, incluso cuando las cosas
+          se ponen difíciles.
+        </p>
+
+        <p>
+          Y ¿sabes algo? Si yo tuviera un Miraculous, creo que mi deseo
+          sería poder regalarte momentos tan bonitos que nunca tengas
+          que dudar de lo especial que eres para mí. No tengo un Lucky
+          Charm para solucionar todos tus problemas, pero sí tengo
+          muchísimo amor para darte.
+        </p>
+
+        <p>
+          No necesitas una máscara ni unos poderes mágicos para ser
+          alguien extraordinario.
+        </p>
+
+        <p>
+          <strong>
+            Feliz cumpleaños, mi niña. Siempre serás mi Ladybug favorita. 🐞💗
+          </strong>
+        </p>
+
+        <p class="sign">Con todo mi amor, tu niño, ahhh y ya le conte a ladybug que me mordiste los labios pero me gusto JAJAJA. ♡</p>
+      </div>
+    </div>
+  </article>
+</section>
 
   <section class="screen" id="sorpresa">
     <button class="back" data-home>← Volver al menú</button>
