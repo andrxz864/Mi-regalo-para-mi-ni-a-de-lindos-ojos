@@ -347,17 +347,25 @@
 </section>
 
   <section class="screen" id="sorpresa">
-    <button class="back" data-home>← Volver al menú</button>
-    <p class="eyebrow">UNA ÚLTIMA COSITA...</p>
-    <h2>¿Me haces un favor? 🥺</h2>
-    <p class="question">¿Me regalas muchos cumpleaños más a tu lado?</p>
-    <div class="answer-buttons">
-      <button id="yesBtn">SÍÍÍ 💗</button>
-      <button id="ofCourseBtn">OBVIOOO 💞</button>
-    </div>
-    <p id="answer" class="answer" hidden>¡Sabía que dirías que sí! Te quiero muchísimo. 🥹❤️</p>
-    <div class="confetti" id="confetti"></div>
-  </section>
+  <button class="back" data-home>← Volver al menú</button>
+  <p class="eyebrow">UNA PREGUNTITA IMPORTANTE...</p>
+
+  <h2 id="proposalTitle">¿Te quieres casar conmigo? 💍</h2>
+
+  <div class="proposal-meme" id="proposalMeme" hidden>
+    <img id="proposalImage" src="" alt="Meme de nuestra propuesta">
+  </div>
+
+  <div class="answer-buttons" id="proposalButtons">
+    <button id="yesBtn">SÍ 💗</button>
+    <button id="noBtn">NO 🙈</button>
+  </div>
+
+  <div id="proposalResult" hidden>
+    <h2 id="proposalFinalText"></h2>
+    <div class="confetti">💗 ✨ 💕 🌸 💖 ✨</div>
+  </div>
+</section>
 </main>
 <script src="funciones.js"></script>
 </body>
