@@ -103,3 +103,17 @@ h1,h2,h3{font-family:'Playfair Display',Georgia,serif}h1{font-size:clamp(36px,10
 #regalo [hidden] {
   display: none !important;
 }
+.proposal-meme {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.proposal-meme img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 380px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: 3px solid #ff8acb;
+  box-shadow: 0 8px 25px #ff51b455;
+}
