@@ -1,12 +1,6 @@
-const screens=[...document.querySelectorAll('.screen')];
-function show(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));window.scrollTo({top:0,behavior:'smooth'});}
-document.querySelectorAll('[data-open]').forEach(btn=>btn.addEventListener('click',()=>show(btn.dataset.open)));
-document.querySelectorAll('[data-home]').forEach(btn=>btn.addEventListener('click',()=>show('home')));
 document.querySelectorAll('.reason').forEach(btn=>{
-  const label=btn.querySelector('span'); const original=label.textContent;
   btn.addEventListener('click',()=>{
     btn.classList.toggle('revealed');
-    label.textContent=btn.classList.contains('revealed')?'¡Y hay muchísimas más!':original;
   });
 });
 const gift=document.getElementById('giftBox'), giftMessage=document.getElementById('giftMessage');
