@@ -23,3 +23,83 @@ h1,h2,h3{font-family:'Playfair Display',Georgia,serif}h1{font-size:clamp(36px,10
 .gift-wrap{display:grid;place-items:center;min-height:220px}.gift{width:180px;height:145px;background:linear-gradient(135deg,#ff91c9,#d94d9d);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;box-shadow:0 14px 35px #ff51b455;cursor:pointer;position:relative;color:#5b1d48}.gift:before{content:"";position:absolute;left:calc(50% - 13px);top:0;width:26px;height:100%;background:#ffe0ef99}.gift:after{content:"";position:absolute;top:-12px;left:-5px;right:-5px;height:25px;border-radius:8px;background:#ffb5dc;border:2px solid #fff0f8}.gift span,.gift strong{z-index:1}.gift span{font-size:40px}.gift strong{font-size:11px;letter-spacing:1px}.gift-message{text-align:center;background:#fff0f8;color:#672b50;padding:22px;border-radius:18px;animation:appear .4s}.big-gift{font-size:42px}.gift-message h3{font-size:23px}.gift-message p{line-height:1.6}
 .question{text-align:center;font-family:'Playfair Display',serif;font-size:24px;line-height:1.4;color:#ffe3f4;margin:35px 8px}.answer-buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.answer-buttons button{border:0;border-radius:999px;padding:14px 22px;background:linear-gradient(120deg,#ffb3dc,#ff79c2);color:#63264d;font-weight:700;font-size:15px;cursor:pointer}.answer{margin:25px auto;text-align:center;color:#ffc5e5;font-size:18px;line-height:1.5}.confetti{font-size:26px;text-align:center;letter-spacing:8px}
 @media(max-width:360px){body{padding:15px 10px}.menu{gap:8px}.menu-btn{min-height:108px}.photos img{height:135px}}
+/* Regalo sorpresa */
+.gift-wrap {
+  margin: 24px auto;
+  text-align: center;
+}
+
+.gift {
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.gift small {
+  display: block;
+  margin-top: 10px;
+}
+
+.letter-stage {
+  margin: 28px 0;
+  text-align: center;
+}
+
+.swipe-letter {
+  background: #fff0f7;
+  color: #71365d;
+  border: 2px dashed #e5a4c5;
+  border-radius: 18px;
+  padding: 28px 16px;
+  touch-action: pan-y;
+  user-select: none;
+  cursor: grab;
+}
+
+.swipe-letter span {
+  display: block;
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.swipe-track {
+  margin-top: 18px;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.final-gift {
+  margin: 25px 0;
+}
+
+.gift-card {
+  background: #fff7fb;
+  color: #633b56;
+  border: 1px solid #f0c6dc;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 8px 25px #0002;
+}
+
+.ladybug-photo {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin: 18px auto;
+}
+
+.gift-letter-text {
+  padding: 12px 4px 24px;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.gift-letter-text p {
+  margin: 16px 0;
+}
+
+#regalo [hidden] {
+  display: none !important;
+}
